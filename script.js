@@ -1,8 +1,14 @@
+var vw = document.documentElement.clientWidth
+var vh = document.documentElement.clientHeight
+
+if(vw < vh){
+    alert("Please Rotate your device...")
+}
 var i1,i2,i3,i4
 var created = false
 var runSpeed = 100;
 function eventHandler(event){
-    if(event.key == " "){
+    if(true){
 
         // var b1 = document.createElement("div");
         // b1.className = "d1";
@@ -74,8 +80,8 @@ function n3(speed,id){
 var i = 0;
 
 function f(){
-    var x = Math.floor(Math.random()*document.documentElement.clientWidth);
-    var y = Math.floor(Math.random()*document.documentElement.clientHeight-100);
+    var x = Math.floor(Math.random()*vw);
+    var y = Math.floor(Math.random()*vh-100);
     if(y < 100)
     y+=120
 
