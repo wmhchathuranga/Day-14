@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body{
+    overflow: hidden;
+}
+
 .speeds{
     margin-top: 80vh;
     margin-left: 45vw;
