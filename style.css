@@ -1,0 +1,29 @@
+.d1{
+    width: 100px;
+    height: 100px;
+    position :absolute;
+    background-color: red;
+    margin-left: 90vw;
+    margin-top: 100px;
+    transition: all linear 0.1s;
+}
+
+.d2{
+    width: 100px;
+    height: 100px;
+    position :absolute;
+    background-color: blue;
+    margin-left: 45vw;
+    margin-top: 200px;
+    transition: all linear 0.1s;
+}
+
+.d3{
+    width: 100px;
+    height: 100px;
+    position :absolute;
+    background-color: green;
+    margin-left: 20vw;
+    margin-top: 50px;
+    transition: all linear 0.1s;
+}
