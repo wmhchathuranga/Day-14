@@ -22,33 +22,3 @@ body{
     margin-top: 100px;
     transition: all linear 0.1s;
 }
-
-.d2{
-    width: 100px;
-    height: 100px;
-    position :absolute;
-    background-color: blue;
-    margin-left: 45vw;
-    margin-top: 200px;
-    transition: all linear 0.2s;
-}
-
-.d3{
-    width: 100px;
-    height: 100px;
-    position :absolute;
-    background-color: green;
-    margin-left: 20vw;
-    margin-top: 50px;
-    transition: all linear 0.3s;
-}
-
-.d4{
-    width: 100px;
-    height: 100px;
-    position :absolute;
-    background-color: yellow;
-    margin-left: 5vw;
-    margin-top: 250px;
-    transition: all linear 0.3s;
-}
