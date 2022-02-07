@@ -1,3 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.speeds{
+    margin-top: 80vh;
+    margin-left: 45vw;
+    position: absolute;
+}
+
 .d1{
     width: 100px;
     height: 100px;
@@ -15,7 +26,7 @@
     background-color: blue;
     margin-left: 45vw;
     margin-top: 200px;
-    transition: all linear 0.1s;
+    transition: all linear 0.2s;
 }
 
 .d3{
@@ -25,5 +36,15 @@
     background-color: green;
     margin-left: 20vw;
     margin-top: 50px;
-    transition: all linear 0.1s;
+    transition: all linear 0.3s;
+}
+
+.d4{
+    width: 100px;
+    height: 100px;
+    position :absolute;
+    background-color: yellow;
+    margin-left: 5vw;
+    margin-top: 250px;
+    transition: all linear 0.3s;
 }
