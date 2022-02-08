@@ -1,5 +1,6 @@
 var vw = document.documentElement.clientWidth
 var vh = document.documentElement.clientHeight
+var firstRun = true
 
 var marks = 0;
 var runSpeed = 100;
@@ -9,7 +10,10 @@ if(vw < vh){
 }
 
 function eventHandler(event){
-    setInterval(f,500);
+    if(firstRun){
+        setInterval(f,500);
+        firstRun = false;
+    }
 }
 
 function n3(speed,id){
