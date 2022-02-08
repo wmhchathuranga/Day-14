@@ -11,7 +11,7 @@ if(vw < vh){
 
 function eventHandler(event){
     if(firstRun){
-        setInterval(f,500);
+        setInterval(f,800);
         firstRun = false;
     }
 }
@@ -50,7 +50,7 @@ function f(){
     b1.onclick = function (){
         b1.style.visibility = "hidden";
         marks += 10;
-        runSpeed-=2;
+        runSpeed-=1;
         document.getElementById('marks').innerText = marks;
     }
     document.body.appendChild(b1);
