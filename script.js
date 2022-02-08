@@ -11,7 +11,7 @@ if(vw < vh){
 
 function eventHandler(event){
     if(firstRun){
-        setInterval(f,800);
+        setInterval(f,500);
         firstRun = false;
     }
 }
